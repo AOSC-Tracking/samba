@@ -87,10 +87,6 @@
 #include <sys/uio.h>
 #endif
 
-#ifdef HAVE_STROPTS_H
-#include <stropts.h>
-#endif
-
 #ifndef HAVE_SOCKLEN_T
 #define HAVE_SOCKLEN_T
 typedef int socklen_t;
